@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sidebar Menu with sub-menu | CodingNepal</title>
+    <link rel="stylesheet" href="..\css\meniu_settings2.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <header>Menu</header>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Account</a></li>
+        <li><a href="#">All questions</a></li>
+        <li><a href="#">Ask question</a></li>
+        <li><a href="#">Search question</a></li>
+      </ul>
+    </div>
+
+    <header class="main-header">
+      <h1 class="page-name">Q&As on Web</h1>
+    </header>
+    <section class="content">
+      <div class="image">
+        <img src="..\img\user.jpg" alt="Image" class="shadow" />
+        <div class="text">
+          <b>Roxana Mihoc</b>
+        </div>
+
+        <div class="navbar">
+          <ul>
+            <li><a href="..\html\meniu_settings1.html">Account</a></li>
+            <li><a href="..\html\meniu_settings2.html">Password</a></li>
+            <li><a href="..\html\meniu_settings3.html">Statistics</a></li>
+          </ul>
+        </div>
+        <div class="account">
+          <h3 class="mb-4" style="text-align: center;
+          font-size: 40px;">Change Password</h3>
+          
+            <form>
+              <label for="firstname">Old Password</label>
+              <input type="password" placeholder="First Name" id="firstname" />
+
+              <label for="lastname">Old Password Again</label>
+              <input type="password" placeholder="Last Name" id="lastname" />
+
+              <label for="username">New Password</label>
+              <input type="password" placeholder="Username" id="username" />
+
+              <label for="email">New Password</label>
+              <input type="password" placeholder="Email" id="email" />
+
+            </form>
+            <div>
+              <button class="btn btn-primary">Update Password</button>
+            </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
