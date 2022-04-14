@@ -12,9 +12,13 @@
     list-style: none;
     text-decoration: none;
 }
+body {
+    display: flex;
+}
 
 .sidebar {
     position: fixed;
+    margin-top:70px;
     width: 250px;
     height: 100%;
     left: 0;
