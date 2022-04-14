@@ -53,6 +53,10 @@ ul li:hover a {
     margin-top: 70px;
     margin-left: 250px;
 }
+.content .text{
+    margin_left: 20px;
+    color:red;
+}
 
 .main-header {
     position: fixed;
@@ -64,4 +68,3 @@ ul li:hover a {
     top: 0;
     width: 100%;
 }
-
