@@ -1,0 +1,50 @@
+Pagini:
+1.pagina unde alegi tipul de cont:anonim sau cont cu date personale.
+    -daca alegi cont cu date:
+       -pagina pentru inregistrare
+       -sau pagina de log in daca ai cont deja 
+       -apoi mergi in pagina 2.1 
+    -anonim: mergi direct la pagina 2.2
+2.1 pagina principala:
+    -ai meniu care contine:
+       -all questions: toate intrebarile puse sortate in functie de timp, si optiunea de sortare 
+       -ask questions: trebuie sa pui un numar de taguri (dintr-un interval)
+       -cautare intrebari dupa taguri sau categorie
+       -administrare cont: setezi poza, username, interese, posibilitati de contact,
+                -badges: statistica cate intrebari sau raspunsuri ai pus, ce badge ai si de cate intrebari mai ai nevoie pana la un anumit badge
+2.2 pagina principala:
+     -meniu:
+        -all questions
+        -ask questions
+        -cautare intrebari dupa taguri
+        -buton de creare cont in caz de se razgandeste 
+Meniul se pastreaza pe toate paginile 3
+3.1 In ask questions:
+   -categorie: mate, geografie, info etc
+   -fiecare categorie are tagurile ei care pot fi selectateai de ales un numar minim de tag uri din cele propuse
+   -intrebarea propriu zisa (titlu in all questions)
+   -context*
+3.2 In all questions:
+   Pt fiecare intrebare:
+   -titltul care te duce la pagina cu rasp la intrebare
+   -putin context
+   -cate raspunsuri are
+   -taguri
+   Ai pagina cu toate intrebarile: cand selectezi o intrebare intrii pe alta pagina cu intrebarea unde: 
+                    3.2.1-poti da like/dislike la o intrebare/raspuns
+                         -poti adauga raspuns
+3.3 Cautare intrebari dupa taguri si categorie:
+      -casuta de cautare dupa tag sau categorie
+3.4 Administrare cont: partea dreapta sus
+     apare un meniu mai mic:
+         -profilul cu datele personale
+         -statistica: nr de intrebari, nr de raspunsuri, badge 
+
+
+
+
+
+
+
+
+  
