@@ -1,4 +1,7 @@
-﻿.content .title {
+﻿body{
+    margin-top:0;
+}
+.content .title {
     font-size: 28px;
     color: black;
     text-align: left;

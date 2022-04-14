@@ -12,8 +12,12 @@
     list-style: none;
     text-decoration: none;
 }
+body {
+    display: flex;
+}
 
 .sidebar {
+    margin-top: 70px;
     position: fixed;
     width: 250px;
     height: 100%;
@@ -33,7 +37,6 @@
 
     .sidebar ul a {
         display: block;
-        height: 100%;
         width: 100%;
         line-height: 65px;
         font-size: 20 px;
