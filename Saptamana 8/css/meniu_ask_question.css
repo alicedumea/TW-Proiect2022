@@ -15,11 +15,21 @@
   align-items: center;
   
 }
+.content .complete .text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
 .content .complete label {
   display: block;
-  margin-top: 100px;
+  margin-top: 60px;
   font-size: 20px;
   font-weight: 500;
+  margin-right: 20%;
+  margin-left: 13%;
+  text-align: center;
 }
 .content .complete input {
   display: block;
@@ -28,11 +38,12 @@
   background-color: rgba(255, 255, 255, 0.07);
   border-radius: 3px;
   padding: 0 10px;
-  margin-top: 100px;
+  margin-top: 60px;
   margin-right: 10%;
   margin-left: 5%;
   font-size: 14px;
   font-weight: 300;
+  
   
 }
 .content .complete .option  {
@@ -50,38 +61,10 @@
     background-color: rgba(255, 255, 255, 0.07);
     border-radius: 3px;
     padding: 0 10px;
-    margin-top: 100px;
-    margin-right: 11%;
+    margin-top: 60px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 10%;
     margin-left: 5%;
-    font-size: 14px;
-    font-weight: 300;
-    
-  }
-  .content .complete .option .tags {
-    display: block;
-    height: 70px;
-    width: 300px;
-    background-color: rgba(255, 255, 255, 0.07);
-    border-radius: 3px;
-    padding: 0 10px;
-    margin-top: 100px;
-    margin-right: 11%;
-    margin-left: 8%;
-    font-size: 14px;
-    font-weight: 300;
-    
-  }
-  .content .complete .option .category {
-    display: block;
-    height: 70px;
-    width: 300px;
-    background-color: rgba(255, 255, 255, 0.07);
-    border-radius: 3px;
-    padding: 0 10px;
-    margin-top: 100px;
-    margin-right: 11%;
-    margin-left: 7%;
-    font-size: 14px;
-    font-weight: 300;
-    
-  }
+ }
+

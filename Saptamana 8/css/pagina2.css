@@ -110,4 +110,40 @@
     box-shadow: 20px -12px 30px -3px rgba(0,0,0,0.1);
 
   }
+  .option .interests form{
+    flex-direction: column;
   
+
+  }
+  .options .interests label {
+    display: block;
+    margin-top: 8%;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 50%;
+
+  }
+  .options .interests input {
+    display: block;
+    height: 50px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 20px;
+    margin-left: 20%;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .options .interests select {
+    display: block;
+    height: 100px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 20px;
+    margin-left: 20%;
+    font-size: 14px;
+    font-weight: 300;
+  }

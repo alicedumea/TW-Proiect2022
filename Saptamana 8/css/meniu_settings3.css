@@ -9,19 +9,19 @@
     left: 17%;
   }
   .content .text b {
-    position: absolute;
+    position: fixed;
     font-size: 30px;
     margin-top: 4%;
     left: 27%;
   }
   
   .content .navbar {
-    position: absolute;
+    position: fixed;
     background: rgba(255, 0, 0, 0.3);
     top:31%;
     left:18.5%;
     width: 300px;
-    height: 513px;
+    height: 100%;
    
   }
   .navbar ul li:hover a {
@@ -42,10 +42,10 @@
       transition: 0.4s;
   }
   .content .account{
-      position: absolute;
+      position: fixed;
       left:40%;
       width: 900px;
-    height: 683px;
+    height: 100%;
     background-color: rgb(242, 170, 199);
   }
  

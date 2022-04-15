@@ -1,65 +1,80 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Ask question</title>
-    <link rel="stylesheet" href="..\css\meniu.css">
+    <link rel="stylesheet" href="..\css\meniu.css" />
     <link rel="stylesheet" href="..\css\meniu_ask_question.css" />
-
-</head>
-<body>
-  <div class="sidebar">
-    <header>Menu</header>
-    <ul>
-      <li><a href="..\html\home.html">Home</a></li>
-      <li><a href="..\html\meniu_settings1.html">Account</a></li>
-      <li><a href="..\html\All_questions.html">All questions</a></li>
-      <li><a href="..\html\meniu_ask_question.html">Ask question</a></li>
-      <li><a href="..\html\Search.html">Search question</a></li>
-    </ul>
-  </div>
+  </head>
+  <body>
+    <div class="sidebar">
+      <header>Menu</header>
+      <ul>
+        <li><a href="..\html\home.html">Home</a></li>
+        <li><a href="..\html\meniu_settings1.html">Account</a></li>
+        <li><a href="..\html\All_questions.html">All questions</a></li>
+        <li><a href="..\html\meniu_ask_question.html">Ask question</a></li>
+        <li><a href="..\html\Search.html">Search question</a></li>
+      </ul>
+    </div>
 
     <header class="main-header">
-        <h1 class="page-name">Q&As on Web</h1>
+      <h1 class="page-name">Q&As on Web</h1>
     </header>
 
     <section class="content">
       <div class="complete">
-        <h3 class="mb-4" style="text-align: center;
-        font-size: 40px;">Ask Question</h3>
-        
-          <form>
-            <label for="question">Question</label>
-            <input type="text" placeholder="Add your question here"/>
-          
+        <h3 class="mb-4" style="text-align: center; font-size: 40px">
+          Ask Question
+        </h3>
 
-            <label for="context">Context*</label>
-            <input type="text" placeholder="Add context if needed" />
-          </form>
-          <div class="option">
+        <div class="text">
+          <label for="question">Question</label>
+          <label for="context">Context*</label>
+        </div>
 
-            <label for="category">Category</label>
-            <select class="category" id="category" placeholder="Choose a category">
-              <option value="volvo">Volvo</option>
-              <option value="saab">Saab</option>
-              <option value="opel">Opel</option>
-              <option value="audi">Audi</option>
-            </select>
+        <form>
+          <input type="text" placeholder="Add your question here" />
 
-            <label class="tag" for="tags">Tags</label>
-            <select class="tags" id="tags" placeholder="Choose some tags">
-              <option value="volvo">Volvo</option>
-              <option value="saab">Saab</option>
-              <option value="opel">Opel</option>
-              <option value="audi">Audi</option>
-            </select>
+          <input type="text" placeholder="Add context if needed" />
+        </form>
+        <div class="text">
+          <label for="category">Category</label>
+          <label class="tag" for="tags">Tags</label>
+        </div>
+        <div class="option">
+          <select
+            class="category"
+            id="category"
+            placeholder="Choose a category"
+          >
+            <option value="programming">Programming</option>
+            <option value="matematics">Matematics</option>
             
-          </div>
+          </select>
 
-          
+          <select class="tags" id="tags" placeholder="Choose some tags">
+            <optgroup label="Programming">
+              <option value="Python">Python</option>
+              <option value="C++">C++</option>
+              <option value="Java">Java</option>
+              <option value="HTML">HTML</option>
+              <option value="CSS">CSS</option>
+              <option value="PHP">PHP</option>
+              <option value="JavaScript">JavaScript</option>
+              <option value="C#">C#</option>
+              <option value="node.js">node.js</option>
+          </optgroup>
+          <optgroup label="Matematics">
+              <option value="Python">Trigonometry</option>
+              <option value="C++">Geometry</option>
+              <option value="Java">Aritmetics</option>
+              <option value="HTML">Numerical Calculus</option>
+              <option value="CSS">Analisis</option>
+          </optgroup>
+          </select>
+        </div>
       </div>
-
     </section>
-
-</body>
+  </body>
 </html>
