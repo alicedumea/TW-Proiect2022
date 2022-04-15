@@ -32,6 +32,7 @@ textarea {
 button {
     display: block;
     padding: 10px 5px;
+    border-bottom: 2px solid black;
 }
 
 .top-bar {
@@ -45,14 +46,17 @@ button {
 }
 
 .comments {
-    margin: 40px 0;
 }
 
 .comment {
     margin: 10px 0;
 }
+.afterQ {
+    margin-top: 4px;
+    border-bottom:2px solid black;
+}
 
-.row {
+.row, .row:hover {
     border-radius: 3px;
     padding: 0;
     margin-top: 3px;
@@ -61,6 +65,9 @@ button {
     width: 100%;
     padding: 5px 3px;
     background-color: aliceblue;
+}
+.tag:hover {
+    background-color: inherit;
 }
 
  .top-comment {
@@ -76,3 +83,4 @@ button {
 .comment-ts {
     padding-left: 10px;
 }
+
