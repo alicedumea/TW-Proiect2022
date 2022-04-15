@@ -1,3 +1,30 @@
 ﻿.tags {
     margin-bottom: 10px;
 }
+.select {
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+    select::-ms-expand {
+        display: none;
+    }
+.select::after {
+    width: 0.8em;
+    height: 0.5em;
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}
+.tags input {
+    color: white;
+    border-radius: 15px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background-color:blueviolet;
+}
