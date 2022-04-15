@@ -1,9 +1,7 @@
 ﻿body{
     margin-top:0;
 }
-.content{
-    display: inline-block;
-}
+
 .content .title {
     font-size: 28px;
     color: black;
@@ -21,12 +19,8 @@
     background-color: white;
     height: 72px;
     border-bottom: 2px solid rgba(0,0,0,0.4);
-    border-bottom-width: medium;
-    float: left;
 }
-.content .questios{
-    position: relative;
-}
+
 #first{
     margin-top: 75px;
 

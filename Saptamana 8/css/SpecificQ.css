@@ -5,7 +5,7 @@
 .content {
     margin-top: 100px;
     margin-left:280px;
-    border: 2px solid black;
+    width: 100%;
     margin-right: 1.3em;
     box-sizing:border-box;
 
@@ -31,7 +31,7 @@ textarea {
 
 button {
     display: block;
-    margin: 10px 0;
+    padding: 10px 5px;
 }
 
 .top-bar {
@@ -53,7 +53,14 @@ button {
 }
 
 .row {
-    padding: 5px 0;
+    border-radius: 3px;
+    padding: 0;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 1em;
+    width: 100%;
+    padding: 5px 3px;
+    background-color: aliceblue;
 }
 
  .top-comment {
