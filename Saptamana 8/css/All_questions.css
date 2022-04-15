@@ -5,13 +5,19 @@
     font-size: 28px;
     color: black;
     text-align: left;
-    line-height: 50px;
+    line-height: 40px;
     font-weight: bold;
     user-select: none;
     margin-right: 30px;
 }
 .content header {
-    margin-left: 30px;
+    position: fixed;
+    padding-left: 30px;
+    width:100%; 
+    background-color: white;
+    height:70px;
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+
 }
 .qnumber {
     font-size: 18px;
@@ -23,7 +29,9 @@
 header hr{
     margin-left:-10px;
     margin-right:1em;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
+    bottom: 0;
+
 }
 a {
     text-decoration: none;
