@@ -9,13 +9,11 @@
   </head>
   <body>
     <main class="container">
-      <section class="a"></section>
+      <section class="a"><div class="background_title">
+        <b>Q&As on Web</b>
+      </div></section>
       <section class="b"></section>
-      <section class="title">
-        <div class="background_title">
-          <b>Q&As on Web</b>
-        </div>
-      </section>
+
       <section class="header">
         <div class="background_header">
           <b>Choose how you want to interact with our website:</b>
@@ -24,10 +22,10 @@
       <section class="options">
         <div class="login">
           <form>
-            <h3>Login Here</h3>
+            <h3>Login</h3>
             <div class="line-1"></div>
 
-            <label for="username">Username</label>
+            <label style="margin-top:20%;" for="username">Username</label>
             <input type="text" placeholder="Email or Username" id="username" />
 
             <label for="password">Password</label>
@@ -35,10 +33,8 @@
 
             <button formaction="..\html\home.html">Log In</button>
             <h4>Or</h4>
-            <div class="new_account">
-              <form>
-                <button formaction="..\html\pagina2.html">Create New Account</button>
-              </form>
+            <button formaction="..\html\pagina2.html">Create New Account</button>
+              
                
               
 
@@ -47,10 +43,9 @@
         </div>
         <div class="anonymus">
           <form>
-            <h3>Join as Anonymous</h3>
+            <h3 >Anonim</h3>
             <div class="line-1"></div>
-            <img src="..\img\user.png" alt="Image" style="height:300px; width:300px; 
-            margin-left:13%; margin-top:12%"; />
+            <img src="..\img\user.png" alt="Image" style="height:auto; width:auto; max-width: 100%; margin-top: 6%;"/>
             <form>
               <button formaction="..\html\home_anonim.html">Use Website</button>
             </form>

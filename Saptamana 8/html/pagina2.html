@@ -9,12 +9,14 @@
   </head>
   <body>
     <main class="container">
-      <section class="a"></section>
-      <section class="b"></section>
-      <section class="title">
-        <div class="background_title">
-          <b>Create your account:</b>
-        </div>
+      <section class="a">
+        <section class="a">
+          <div class="background_title">
+            <b>Create your account:</b>
+          </div>
+        </section>
+      </section>
+      <section class="b">
       </section>
       <section class="options">
         <div class="data">
@@ -25,27 +27,29 @@
             <label for="lastname">Last Name</label>
             <input type="text" placeholder="Last Name" id="lastname" />
 
-            <label for="username">Username</label>
-            <input type="text" placeholder="Username" id="username" />
 
             <label for="email">Email</label>
             <input type="text" placeholder="Email" id="email" />
 
             <label for="password">Password</label>
             <input type="password" placeholder="Password" id="password" />
-            <div class="new_account">
-              <form>
-                <button formaction="..\html\home.html">Create New Account</button>
-              </form>
-            </div>
+            <label for="confirm">Confirm Password</label>
+            <input type="text" placeholder="Confirm Password" id="username" />
+            
+
+
+          
           </form>
         </div>
         <div class="interests">
           <form>
+            <label for="username">Username</label>
+            <input type="text" placeholder="Username" id="username" />
             <label for="birthday">Birthday:</label>
             <input type="date" id="birthday" name="birthday">
             <label for="category">Category</label>
-            <select
+          
+            -- <select
             class="category"
             id="category"
             placeholder="Choose a category"
@@ -59,11 +63,11 @@
             <option value="matematics">Physics</option>
             <option value="matematics">Literature</option>
             
-          </select>
+          </select> 
+          <button formaction="..\html\home.html">Create New Account</button>
 
 
           </form>
-          
         </div>
       </section>
     </main>

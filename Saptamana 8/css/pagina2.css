@@ -17,89 +17,141 @@
     margin-top: -60px;
     background: #a0d1ff;
   }
-  
-  .options .interests {
+  .a .background_title {
     display: flex;
     position: absolute;
-    width: 400px;
-    height: 600px;
-    top: 20%;
-    right: 24%;
-    background-color: white;
-    border-left-style: dashed;
-    border-bottom-right-radius: 25px ;
-    border-top-right-radius: 25px ;
-    box-shadow: 20px -12px 30px -3px rgba(0,0,0,0.1);
-
-
-  }
-  .options .data  {
-    display: flex;
-    position: absolute;
-    width: 400px;
-    height: 600px;
-    top: 20%;
-    right: 50%;
-    background-color: white;
-    box-shadow: -20px 12px 15px -3px rgba(0,0,0,0.15);
-    border-bottom-left-radius: 25px ;
-  border-top-left-radius: 25px ;
-  }
-  .title .background_title {
-    display: flex;
-    position: absolute;
-    width: 700px;
-    height: 60px;
-    top: 2%;
-    right: 25%;
+    width: 100%;
+    height:100vh;
+    justify-content: center;
     background: transparent;
   }
-  .title .background_title b {
+  .a .background_title b {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     text-align: center;
   }
-.options .data form{
-    flex-direction: column;
-}
+  .container .options{
+    display: flex;
+    flex-direction: row;
   
-  .options .data label {
-    display: block;
-    margin-top: 8%;
+  }
+  .options .data {
+    display: flex;
+    position: absolute;
+    width: 26.5%;
+    height: 90%;
+    top: 20%;
+    right: 50%;
+    background-color: white;
+    border-bottom-left-radius: 25px ;
+    border-top-left-radius: 25px ;
+    box-shadow: -20px 12px 15px -3px rgba(0,0,0,0.15);
+    flex-direction: column;
+  }
+
+  
+  .options .data form {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    flex-direction: column;
+    align-items:center ;
+  
+  }
+.options .data form label {
+    display: flex;
+    margin-top: 7%;
     font-size: 16px;
     font-weight: 500;
-    margin-left: 50%;
-
+    flex-direction: column;
+    align-items: center;
+    width:100%;
   }
-  .options .data input {
+  
+  .options .data form input {
     display: block;
     height: 50px;
-    width: 250px;
     background-color: rgba(255, 255, 255, 0.07);
     border-radius: 3px;
     padding: 0 10px;
     margin-top: 20px;
-    margin-left: 15%;
     font-size: 14px;
     font-weight: 300;
-  }
-  .options .data button {
-    margin-top: 30px;
-    margin-left: 35%;
-    width: 100px;
-    background-color: #ffffff;
-    color: #080710;
-    padding: 15px 0;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
+    width: 50%;
+  
   }
   
-  .options .data .new_account button {
+.options .interests {
+    display: flex;
+  position: absolute;
+  width: 26.5%;
+  height: 90%;
+  top: 20%;
+  right: 24%;
+  background-color: white;
+  border-left-style: dashed;
+  border-bottom-right-radius: 25px ;
+  border-top-right-radius: 25px ;
+  box-shadow: -20px 12px 30px -3px rgba(0,0,0,0.1);
+  }
+
+
+  
+  .options .interests form {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    flex-direction: column;
+    align-items:center ;
+  
+  }
+.options .interests form label {
+    display: flex;
+    margin-top: 7%;
+    font-size: 16px;
+    font-weight: 500;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+  }
+  
+  .options .interests form input {
+    display: block;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    width: 50%;
+  
+  }
+  .options .interests form select {
+    display: block;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    width: 70%;
+  } 
+
+
+  .options .interests   button {
+    display: flex;
     margin-top: 20%;
-    margin-left: 97%;
-    width: 250px;
+    width: 50%;
     background-color: #ffffff;
     color: #080710;
     padding: 15px 0;
@@ -108,42 +160,8 @@
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 20px -12px 30px -3px rgba(0,0,0,0.1);
+    justify-content: center;
+    align-items: flex-end;
 
   }
-  .option .interests form{
-    flex-direction: column;
   
-
-  }
-  .options .interests label {
-    display: block;
-    margin-top: 8%;
-    font-size: 16px;
-    font-weight: 500;
-    margin-left: 50%;
-
-  }
-  .options .interests input {
-    display: block;
-    height: 50px;
-    width: 250px;
-    background-color: rgba(255, 255, 255, 0.07);
-    border-radius: 3px;
-    padding: 0 10px;
-    margin-top: 20px;
-    margin-left: 20%;
-    font-size: 14px;
-    font-weight: 300;
-  }
-  .options .interests select {
-    display: block;
-    height: 100px;
-    width: 250px;
-    background-color: rgba(255, 255, 255, 0.07);
-    border-radius: 3px;
-    padding: 0 10px;
-    margin-top: 20px;
-    margin-left: 20%;
-    font-size: 14px;
-    font-weight: 300;
-  }
