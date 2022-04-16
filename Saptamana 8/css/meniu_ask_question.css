@@ -65,11 +65,10 @@
  }
 
 .buton {
-
     color: white;
     border-radius: 15px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    background-color: blueviolet;
+    background-color: #b9936c;
     padding: 8px;
     font-size: 22px;
     margin-top: 10px;
@@ -78,6 +77,5 @@
 
     .buton:hover {
         cursor: pointer;
-        background-color: forestgreen;
-        border-color: limegreen;
+        background-color: #7e4a35;
     }
