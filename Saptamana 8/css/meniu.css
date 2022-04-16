@@ -26,11 +26,13 @@ body {
     height: 100%;
     left: 0;
     background-color: #dac292;
+    font-family: 'Bookman Old Style';
 }
 
 
     .sidebar header {
-        font-size: 22px;
+        font-size: 35px;
+        font-weight: 600;
         color: white;
         text-align: center;
         line-height: 70px;
@@ -38,19 +40,21 @@ body {
         user-select: none;
         border-right: 1px solid rgba(0, 0, 0, 0.3);
         border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+        font-family: 'Bookman Old Style';
     }
 
     .sidebar ul a {
         display: block;
         width: 100%;
         line-height: 65px;
-        font-size: 20 px;
+        font-size: 24px;
         color: saddlebrown;
         padding-left: 40px;
         box-sizing: border-box;
         border-top: 1px solid rgba(255, 255, 255, 0.3);
         border-bottom: 1px solid rgba(0, 0, 0, 0.3);
         transition: .4s;
+        font-family: 'Bookman Old Style';
     }
 
 ul li:hover a {

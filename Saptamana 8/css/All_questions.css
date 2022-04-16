@@ -10,11 +10,13 @@
     font-weight: bold;
     user-select: none;
     margin-right: 30px;
+    color: white;
 }
 
 .content header {
     position: fixed;
     padding-left: 30px;
+    
     width: 100%;
     background-color: #b9936c;
     height: 72px;
