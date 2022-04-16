@@ -26,8 +26,10 @@
       <div class="profile">
         
           
-        <img src="..\img\user.jpg" alt="Image"  />
-          <b>Roxana Mihoc</b>
+        <img src="..\img\user.jpg" alt="Image" />
+        <b>Popescu Adina</b>
+        <b style="margin-top:8%;">adina123</b>
+        <button style=" width:80px; height:25px; margin-top: 29%; margin-left: 50%; background-color:  #dac292aa;">Upload photo</button>
       
       </div>
 
@@ -39,23 +41,33 @@
           </ul>
         </div>
         <div class="account">
-          <h3 class="mb-4" style="text-align: center;
-          font-size: 40px;">Change Password</h3>
-          
+          <h3 class="mb-4" style="text-align:start; font-size: 40px; max-width: 100%; margin-left:13%">Change Password</h3>
+          <div class="text">
+            <label for="firstname">Old Password</label>
+            </div>
             <form>
-              <label for="firstname">Old Password</label>
               <input type="password" placeholder="Password" id="oldpassword" />
-
-              <label for="lastname">Old Password Again</label>
-              <input type="password" placeholder="Old Password Again" id="oldpasswordagain" />
-
-              <label for="username">New Password</label>
-              <input type="password" placeholder="New Password" id="newpassword" />
-
-              <label for="email">New Password again</label>
-              <input type="password" placeholder="New Password again" id="newpasswordagain" />
-
             </form>
+            <div class="text">
+              <label for="lastname">Old Password Again</label>
+            </div>
+            <form>
+              <input type="password" placeholder="Old Password Again" id="oldpasswordagain" />
+            </form>
+            <div class="text">
+              <label for="username">New Password</label>
+            </div>
+            <form>
+              <input type="password" placeholder="New Password" id="newpassword" />
+            </form>
+            <div class="text">
+              <label for="email">New Password again</label>
+            </div>
+    
+            <form>
+              <input type="password" placeholder="New Password again" id="newpasswordagain" />
+            </form>
+          
             <div>
               <button class="btn btn-primary">Update Password</button>
             </div>

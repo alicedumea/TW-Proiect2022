@@ -14,6 +14,8 @@
   border-radius: 25px;
   border: 5px solid #fff;
   justify-content: center;
+  margin-left: 1%;
+  margin-top:1%
   
 }
 .profile  b {
@@ -23,8 +25,8 @@
   text-align: center;
   width:100%;
   height: 100%;
-  margin-top:10%;
-  margin-left: 10%;
+  margin-top:18%;
+  margin-left: 15%;
   justify-content: center;
 
 } 
@@ -62,22 +64,28 @@
   width: 65%;
   height: 100%;
 }
-.content .account form  {
+.content .account .text {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
-.content .account label {
+.content .account form  {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.content .account .text label {
   display: flex;
   margin-top: 20px;
   font-size: 16px;
   font-weight: 500;
-  flex-direction: column;
-  align-items: center;
   width:100%;
- 
-
-}
+  height: 100%;
+  margin-left: 45%;
+  }
 .content .account input {
   display: block;
   height: 50px;
@@ -88,10 +96,11 @@
   margin-top: 20px;
   font-size: 14px;
   font-weight: 300;
+  margin-left: 15%;
 }
 .content .account button {
   margin-top: 100px;
-  margin-left: 39%;
+  margin-left: 17%;
   width: 200px;
   background-color: #ffffff;
   color: #080710;

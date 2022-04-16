@@ -14,6 +14,8 @@
   border-radius: 25px;
   border: 5px solid #fff;
   justify-content: center;
+  margin-left: 1%;
+  margin-top:1%
   
 }
 .profile  b {
@@ -23,8 +25,8 @@
   text-align: center;
   width:100%;
   height: 100%;
-  margin-top:10%;
-  margin-left: 10%;
+  margin-top:18%;
+  margin-left: 15%;
   justify-content: center;
 
 } 
@@ -61,24 +63,13 @@
     margin-left:300px;
     width: 65%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .content.account.text{
+
+    font-size: 100px;
   }
  
-  .content .account  .ask{
-  position: absolute;
-  display: flex;
-  width: 100vh;
-  height: 500px;
-  top:20%;
-  left:16%;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-end;
-  
-  }
-.content .account .ask b{
-  margin-left: 7%;
-  margin-right: 13%;
-  margin-bottom: 10%;
-  font-size: 50px;
-  text-align: center;
-}
