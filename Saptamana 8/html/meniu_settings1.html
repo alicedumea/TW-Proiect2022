@@ -15,6 +15,7 @@
         <li><a href="..\html\All_questions.html">All questions</a></li>
         <li><a href="..\html\meniu_ask_question.html">Ask question</a></li>
         <li><a href="..\html\Search.html">Search question</a></li>
+        <li><a href="..\documentatie\documentatie.html">Documentation</a></li>
       </ul>
     </div>
 
@@ -23,14 +24,11 @@
     </header>
     <section class="content">
       <div class="profile">
-        
-          
-        <img src="..\img\user.jpg" alt="Image"  />
-          <b>Roxana Mihoc</b>
-      
+        <img src="..\img\user.jpg" alt="Image" />
+        <b>Roxana Mihoc</b>
       </div>
       <div class="navbar">
-          <ul>
+        <ul>
           <li><a href="..\html\meniu_settings1.html">Account</a></li>
           <li><a href="..\html\meniu_settings2.html">Password</a></li>
           <li><a href="..\html\meniu_settings3.html">Statistics</a></li>
@@ -39,27 +37,42 @@
       <div class="account">
         <h3
           class="mb-4"
-          style="text-align: center; font-size: 40px; max-width: 100%"
+          style="text-align:start; font-size: 40px; max-width: 100%; margin-left:13%"
         >
           Account Settings
         </h3>
+        <div class="text">
+        <label for="firstname">First Name</label>
+        </div>
+        <form>
+          <input type="text" placeholder="First Name" id="firstname" />
+        </form>
+        <div class="text">
+        <label for="lastname">Last Name</label>
+        </div>
+        <form>
+          <input type="text" placeholder="Last Name" id="lastname" />
+        </form>
+        <div class="text">
+        <label for="username">Username</label>
+        </div>
+        <form>
+          <input type="text" placeholder="Username" id="username" />
+        </form>
+        <div class="text">
+        <label for="email">Email</label>
+        </div>
 
         <form>
-          <label for="firstname">First Name</label>
-          <input type="text" placeholder="First Name" id="firstname" />
-
-          <label for="lastname">Last Name</label>
-          <input type="text" placeholder="Last Name" id="lastname" />
-
-          <label for="username">Username</label>
-          <input type="text" placeholder="Username" id="username" />
-
-          <label for="email">Email</label>
           <input type="text" placeholder="Email" id="email" />
-
-          <label for="birthday">Birthday:</label>
+        </form>
+        <div class="text">
+        <label for="birthday">Birthday:</label>
+        </div>
+        <form>
           <input type="date" id="birthday" name="birthday" />
         </form>
+
         <div>
           <button class="btn btn-primary">Update</button>
           <button class="btn btn-light" style="margin-left: 15%">Cancel</button>

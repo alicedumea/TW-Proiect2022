@@ -1,67 +1,83 @@
-.content .image img {
-    position: absolute;
-    height: 150px;
-    width: 150px;
-    border-radius: 25px;
-    border: 5px solid #fff;
-    left: 17%;
-  }
-  .content .text b {
-    position: fixed;
-    font-size: 30px;
-    margin-top: 4%;
-    left: 27%;
-  }
+.content .profile {
+  display: flex;
+  position: fixed;
+  background: #b9936ccc;;
+  width: 300px;
+  height: 140px;
+  flex-direction: row;
+}
+ .profile img {
+  display: flex;
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  border-radius: 25px;
+  border: 5px solid #fff;
+  justify-content: center;
   
-  .content .navbar {
-    position: fixed;
-    background: rgba(255, 0, 0, 0.3);
-    top:31%;
-    left:18.5%;
-    width: 300px;
-    height: 100%;
-   
-  }
-  .navbar ul li:hover a {
-    padding-left: 50px;
-  }
-  .content .navbar ul a {
-      text-align:start;
-      display: block;
-      height: 100%;
-      width: 100%;
-      line-height: 65px;
-      font-size: 20 px;
-      color: saddlebrown;
-      padding-left: 40px;
-      box-sizing: border-box;
-      border: 1px solid rgba(0, 0, 0, 0.3);
-      border-radius: 10px;
-      transition: 0.4s;
-  }
+}
+.profile  b {
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  width:100%;
+  height: 100%;
+  margin-top:10%;
+  margin-left: 10%;
+  justify-content: center;
+
+} 
+.content .navbar {
+  position: fixed;
+  display: flex;
+  top:27.8%;
+  background: #dac292aa;
+  width: 300px;
+  height: 100%;
+  flex-direction: column;
+  
+ 
+}
+
+.content .navbar ul a {
+    
+  display: flex;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20 px;
+  color: saddlebrown;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  transition: 0.4s;
+}
+.navbar ul li:hover a {
+  padding-left: 100px;
+}
   .content .account{
-      position: fixed;
-      left:40%;
-      width: 900px;
+    position: fixed;
+    margin-left:300px;
+    width: 65%;
     height: 100%;
-    background-color: rgb(242, 170, 199);
   }
  
- 
-  .content .account .stats .ask{
-    position: absolute;
-    display: flex;
-    width: 600px;
+  .content .account  .ask{
+  position: absolute;
+  display: flex;
+  width: 100vh;
   height: 500px;
-  background-color: rgb(196, 133, 187);
   top:20%;
   left:16%;
   flex-direction: row;
   align-items: flex-end;
+  justify-content: flex-end;
   
   }
-.content .account .stats .ask b{
-  margin-left: 12%;
+.content .account .ask b{
+  margin-left: 7%;
+  margin-right: 13%;
   margin-bottom: 10%;
   font-size: 50px;
   text-align: center;

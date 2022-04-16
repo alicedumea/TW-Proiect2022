@@ -10,12 +10,12 @@
   }
   .a {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 80px));
-    background: #fe8f8f;
+    background: #b9936cbb;
   }
   .b {
     clip-path: polygon(0 0, 100% 80px, 100% 100%, 0 100%);
     margin-top: -60px;
-    background: #a0d1ff;
+    background:  #7e4a35;
   }
   .a .background_title {
     display: flex;
@@ -42,7 +42,7 @@
     height: 90%;
     top: 20%;
     right: 50%;
-    background-color: white;
+    background-color: #fefbd8;
     border-bottom-left-radius: 25px ;
     border-top-left-radius: 25px ;
     box-shadow: -20px 12px 15px -3px rgba(0,0,0,0.15);
@@ -92,7 +92,7 @@
   height: 90%;
   top: 20%;
   right: 24%;
-  background-color: white;
+  background-color: #fefbd8;
   border-left-style: dashed;
   border-bottom-right-radius: 25px ;
   border-top-right-radius: 25px ;

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+      <title>Documentatie</title>
+      <link rel="stylesheet" href="documentatie.css">
+   </head>
+
+
+   <body>
+      <header>
+         <div class="banner">
+            <a href="..\html\home.html" class="button" >
+               Back to main page. 
+            </a>
+         </div>
+         <h1>Documentație<br>QAW (Q&As on Web)</h1>
+      </header>
+      <div role="contentinfo">
+         <dl>
+            <dt>Grupa</dt>
+            <dd>
+               2A5-X
+            </dd>
+            <dt>Autori</dt>
+            <dd>
+               Dumea Alice-Lenuța &amp; Mihoc Roxana-Gabriela 
+            </dd>
+            <dt>GitHub</dt>
+            <dd>
+               <a href="https://github.com/alicedumea/TW-Proiect2022.git">https://github.com/alicedumea/TW-Proiect2022.git</a>
+            </dd>
+         </dl>
+      </div>
+
+      <section id="introduction" role="doc-introduction">
+         <h2>Introducere</h2>
+         <section id="purpose">
+            <h3>Scop</h3>
+         <p> 
+            Scopul este de a dezvolta o aplicaţie web prin care utilizatorii pot adresa întrebări din anumite domenii, sau răspunde la întrebările altor utilizatori.
+
+         </p>
+         </section>
+          <section id="inteded-audience">
+            <h3>Publicul țintă</h3>
+              <p> 
+               Singurii actori ai aplicației sunt clienții care au 2 opțiuni: fie își crează un cont, fie folosesc aplicația în mod anonim.
+               </p>
+
+           </section>
+          <section id="Product-Scope">
+           <h3>Scopul produsului final</h3>
+           <p> 
+            Aplicația este capabilă să gestioneze o serie de întrebări puse de utilizatori (anonimi ori autentificați prin nume de cont + parola) și răspunsurile aferente oferite de diverse persoane (la rândul lor, anonime sau autentificate).
+            Fiecărui utilizator i se va asocia un profil conținând date personale, interese, posibilități de contact etc., plus o serie de calificative (badges) obținute pe baza activității în cadrul aplicației, acordate în mod automat -- e.g., persoana cea mai curioasă (a pus un număr mare de întrebări), utilizatorul altruist (răspunde la orice întrebare apărută), cel mai informat (oferă cele mai bune răspunsuri) etc. Utilizatorii autentificați care au oferit deja minim R răspunsuri vor putea accepta ori considera ca fiind nepotrivite întrebările/răspunsurile introduse. Apoi, prin vot, atât întrebările, cât și răspunsurile vor putea fi apreciate/depreciate. Unei întrebări i se vor putea asocia o categorie, plus maxim T termeni de conținut (tag-uri) ce pot fi folosiți ulterior pentru căutare.
+            </p>
+         </section>
+
+      </section>
+      <section id="description">
+         <h2>Descriere Generală</h2>
+         <section id="perspective">
+            <h3>Perspectiva</h3>
+            <p>
+               Aplicația noastră web are ca surse de inspirație aplicațiile StackOverflow și Quora. 
+               Aceasta oferă funcționalități precum: 
+               <li>autentificarea ca utilizator care poate face anumite setări asupra contului, poate raspunde la întrebări sau poate pune întrebări, poate primi un badge dacă are un anumit număr de întrebări puse, sau răspunsuri date,
+                  poate căuta o întrebare după un anumit tag, are acces la toate întrebările/răspunsurile și poate reacționa cu like/dislike la o întrebare sau la un răspuns; </li>
+               <li>folosirea aplicației în mod anonim: are același funcționalități ca un utilizator autentificat, mai puțin partea de gestionare a contului și obținerea de badge-uri, dar are posibilitatea de a-și crea un cont oricând.</li>
+
+            </p>
+            <!-- <p> 
+               It must feature a <code>DOCTYPE</code> as its preamble.
+            </p> -->
+         </section>
+         <section id="system-features">
+            <h3>Funcționalități</h3>
+            
+            <ul>
+                <li>Utilizatorul are 2 opțiuni::
+                <ul>
+                    <li>După crearea unui cont/autentificare: 
+                        <ul>
+                            <li>poate răspunde la întrebări;</li>
+                            <li>poate pune întrebări: pentru fiecare întrebare poate alege tagurile și categoria din care face parte,și poate adăuga un context daca este cazul;</li>
+                            <li>poate căuta întrebări după anumite taguri; </li>
+                            <li>poate filtra întrebările după taguri, categorii și data publicării;</li>
+                            <li>poate aprecia sau deprecia anumite întrebări sau răspunsuri; </li>
+                            <li>poate primi după ce a pus sau a răspuns la un numar de întrebări, un bagde, care este de mai multe tipuri; </li>
+                            <li>poate modifica anumite setări ale contului și anume: numele, prenumele, email-u, parola, username, data de naștere, categoriile si tagurile. </li>
+                        </ul>
+                    </li>
+                    
+                    <li>  Folosește aplicația ca utilizator anonimn și:
+                        <ul>
+                           <li>poate răspunde la întrebări;</li>
+                           <li>poate pune întrebări: pentru fiecare întrebare poate alege tagurile și categoria din care face parte,și poate adăuga un context daca este cazul;</li>
+                           <li>poate căuta întrebări după anumite taguri; </li>
+                           <li>poate filtra întrebările după taguri, categorii și data publicării;</li>
+                           <li>poate aprecia sau deprecia anumite întrebări sau răspunsuri; </li>
+                            <li>nu poate modifica setările contului pentru că acesta nu are un cont; </li>
+                            <li>nu poate primii un badge, pentru că activitatea nu este reținută nicăieri din cauza lipsei contului de utilizator; </li>
+                            <li>își poate crea cont oricând.</li>
+                        </ul>
+
+                    </li>
+    
+                    </ul>
+                </li>
+            </ul>
+               
+            
+         </section>
+         <section id="languages">
+            <h3>Limbaje</h3>
+            <p>
+               Proiectarea şi implementarea interfeţei web responsive a fost realizată cu HTML5 şi CSS3.
+            </p>
+         </section>
+      </section>
+      <section id="done-things">
+         <h2>Implementari</h2>
+            <p>
+               Proiectarea şi implementarea interfeţei Web responsive.
+               În crearea acestui design ne-am inspirat din aplicaţiile de acest gen deja existente precum: StackOverflow si Quora.
+               Aplicația are cam aceleași funcționalități ca și cele de mai sus.
+            </p>
+      </section>
+      <section id="biblio-references">
+         <h2>Resurse</h2>
+         <dl>
+            <dt id="ref-doc">Exemplu Documentație-IEEE-SRS-Tempate</dt>
+            <dd property="schema:citation" typeof="schema:WebPage" resource="https://github.com/rick4470/IEEE-SRS-Tempate">
+               <cite property="schema:name">
+               <a href="https://github.com/rick4470/IEEE-SRS-Tempate">https://github.com/rick4470/IEEE-SRS-Tempate</a>
+               </cite>.
+            </dd>
+            <dt id="ref-scholarly">Scholarly HTML</dt>
+            <dd property="schema:citation" typeof="schema:WebPage" resource="https://w3c.github.io/scholarly-html/">
+               <cite property="schema:name">
+               <a href="https://w3c.github.io/scholarly-html/">https://w3c.github.io/scholarly-html/</a>
+               </cite>.
+            </dd>
+            <dt id="ref-busaco">Site TW</dt>
+            <dd property="schema:citation" typeof="schema:WebPage" resource="https://profs.info.uaic.ro/~busaco/teach/courses/web/web-projects.html">
+               <cite property="schema:name">
+               <a href="https://profs.info.uaic.ro/~busaco/teach/courses/web/web-projects.html">https://profs.info.uaic.ro/~busaco/teach/courses/web/web-projects.html</a>
+               </cite>.
+            </dd>
+            <dt id="ref-mdn">MDN</dt>
+            <dd property="schema:citation" typeof="schema:WebPage" resource="https://developer.mozilla.org/en-US/">
+               <cite property="schema:name">
+               <a href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a>
+               </cite>.
+            </dd>
+            <dt id="ref-drift">Inspiratie 1 - StackOverflow</dt>
+            <dd property="schema:citation" typeof="schema:WebPage" resource="https://stackoverflow.com/">
+               <cite property="schema:name">
+               <a href="https://stackoverflow.com/">https://stackoverflow.com/</a>
+               </cite>.
+            </dd>
+            <dt id="ref-yt-video1">Inspiratie 2 - Quora</dt>
+            <dd property="schema:citation" typeof="schema:WebPage" resource="https://www.quora.com/">
+               <cite property="schema:name">
+               <a href="https://www.quora.com/">https://www.quora.com/</a>
+               </cite>.
+            </dd>
+            
+         </dl>
+      </section>
+
+      <section id="improvements">
+         <h2>Implementări viitoare</h2>
+         <section id="login">
+            <h3>Login/Creare cont</h3>
+            <p>
+               Momentan pagina de login/creare cont nu este funcțională. Urmează să implementăm aceste funcţionalitati prin introducerea datelor personale şi căutarea acestora într-o bază de date externă.
+            </p>
+         </section>
+         <section id="ask-question">
+            <h3>Ask question</h3>
+            <p>
+               Funcționalitatea formularului de pus întrebări. După trimiterea formularului, întrebarea v-a apărea în secțiunea All Questions, și în secțiunea de Search Question dacă tagurile căutate corespund cu cele ale întrebării. 
+            </p>
+         </section>
+         <section id="react">
+            <h3>React to question/answer</h3>
+            <p>
+               Fiecare întrebare/răspuns poate fi apreciat/depreciat iar numărul acestora este modificat vizibil, și stocat în baza de date. 
+            </p>
+         </section>
+         <section id="badge">
+            <h3>Badge</h3>
+            <p>
+               După un anumit număr de întrebări puse sau răspunsuri date utilizatorii autentificați pot primii unul dintre badge-urile (până la finalizarea proiectului se mai pot schimba): 
+            </p>
+            <ul>
+               <li>Begginer-primul badge primit atunci când se crează contul;</li>
+
+               
+               <li>Altruist-dacă utilizatorul răspunde la orice întrebare apărută;</li>
+               
+                              
+               <li>Curious-dacă utilizatorul a pus un număr mare de întrebări; </li>
+               
+                              
+               <li>The Most Informed-dacă utilizatorul oferă cele mai bune răspunsuri (are cel mai mare număr de voturi la răspunsuri)</li>
+           </ul>
+         </section>
+      </section>
+   </body>
+</html>
