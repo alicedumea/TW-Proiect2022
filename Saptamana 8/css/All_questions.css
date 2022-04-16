@@ -92,7 +92,6 @@ p {
 
 .timestamp, .comment-count {
     padding-right: 10px;
-    position:  absolute;
     right: 1em;
 }
 .timestamp{

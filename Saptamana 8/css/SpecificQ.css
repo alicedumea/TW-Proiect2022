@@ -18,7 +18,10 @@ h1, h4, ol {
     margin: 0;
 }
 .title hr{
-    margin-right: 1.3 em;
+    margin-right: 1.3em;
+}
+.content .title {
+    color: black;
 }
 
 p {
@@ -60,6 +63,7 @@ h4 .like{
 
 }
 .like {
+    background-color: #dac292
 }
 form {
     width: 80%;
@@ -81,7 +85,7 @@ form {
     margin-right: 1em;
     width: 100%;
     padding: 5px 3px;
-    background-color: aliceblue;
+    background-color: antiquewhite;
 }
 .tag:hover {
     background-color: inherit;
@@ -110,5 +114,10 @@ form {
 
 .comment-ts {
     padding-left: 10px;
+}
+span input {
+    background-color: #dac292;
+    line-height: 25px;
+    font-size:20px;
 }
 
