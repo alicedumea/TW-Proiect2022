@@ -26,79 +26,141 @@
     <section class="content">
         <div class="row">
             <h4 class="title">
-                Intrebarea 2
+                Why is processing a sorted array faster than processing an unsorted array?
+                <br />
                 <input type="submit" class="like" value="Like"></input>
-                <span class="nrLike">2450 likes</span>
+                <span class="nrLike">24 likes</span>
                 <input type="submit" class="like" value="Dislike"></input>
-                <span class="nrLike">20 dislikes</span>
+                <span class="nrLike">1 dislikes</span>
             </h4>
-            <div class="context">intrebae</div>
+            <hr />
+            <div class="context">
+                My first thought was that sorting brings the data into the cache, but then I thought how silly that was because the array was just generated.<br />
+                <ul>
+                    <li>
+                        What is going on?
+                    </li>
+                    <li>
+                        Why is processing a sorted array faster than processing an unsorted array?
+
+                    </li>
+                </ul>
+                The code is summing up some independent terms, so the order should not matter.
+
+            </div>
+            <hr />
             <div class="bottom">
                 <div>
                     Tags:
-                    <span class="tag"> tag1 </span>
-                    <span class="tag"> tag1 </span>
-                    <span class="tag"> tag1 </span>
-                    <span class="tag"> tag1 </span>
+                    <span class="tag"> Java </span>
+                    <span class="tag"> C++ </span>
+                    <span class="tag"> Performance</span>
+                    <span class="tag"> Array </span>
                 </div>
-                <p class="timestamp">Data</p>
-                <p class="comment-count">nr of comments</p>
+                <p class="timestamp">13.09.2016</p>
+                <p class="comment-count">5  comments</p>
             </div>
             <hr class="afterQ" />
 
             <div class="comments">
                 <div class="comment">
                     <div class="top-comment">
-                        <p class="user">autorul</p>
-                        <p class="comment-ts">data</p>
-                        <input type="submit" class="like" value="Like"></input>
-                        <p class="nrLike">2450 likes</p>
-                        <input type="submit" class="like" value="Dislike"></input>
-                        <p class="nrLike">20 dislikes</p>
+                        <p class="user">alex34</p>
+                        <p class="comment-ts">13.09.2016</p>
                     </div>
-                    <div class="comment-content">textul</div>
-                    <hr class="afterC" />
-                </div>
-                <div class="comment">
-                    <div class="top-comment">
-                        <p class="user">autorul</p>
-                        <p class="comment-ts">data</p>
-                        <input type="submit" class="like" value="Like"></input>
-                        <p class="nrLike">2450 likes</p>
-                        <input type="submit" class="like" value="Dislike"></input>
-                        <p class="nrLike">20 dislikes</p>
+                    <div class="comment-content">With a sorted array, the condition data[c] >= 128 is first false for a streak of values, then becomes true for all later values. That's easy to predict. With an unsorted array, you pay for the branching cost</div>
+                    <br />
+                    <div class="comment-bottom">
+                        <input type="submit" class="like" value="Like">
+                        <p class="nrLike">2 likes</p>
+                        <input type="submit" class="like" value="Dislike">
+                        <p class="nrLike">3 dislikes</p>
                     </div>
-                    <div class="comment-content">textul</div>
-                    <hr class="afterC" />
-                </div>
-                <div class="comment">
-                    <div class="top-comment">
-                        <p class="user">autorul</p>
-                        <p class="comment-ts">data</p>
-                        <input type="submit" class="like" value="Like"></input>
-                        <p class="nrLike">2450 likes</p>
-                        <input type="submit" class="like" value="Dislike"></input>
-                        <p class="nrLike">20 dislikes</p>
 
-
-                    </div>
-                    <div class="comment-content">textul</div>
                     <hr class="afterC" />
                 </div>
                 <div class="comment">
                     <div class="top-comment">
-                        <p class="user">autorul</p>
-                        <p class="comment-ts">data</p>
-                        <input type="submit" class="like" value="Like"></input>
-                        <p class="nrLike">2450 likes</p>
-                        <input type="submit" class="like" value="Dislike"></input>
-                        <p class="nrLike">20 dislikes</p>
+                        <p class="user">manulicu822</p>
+                        <p class="comment-ts">14.09.2016</p>
                     </div>
-                    <div class="comment-content">textul</div>
+                    <div class="comment-content">Sometimes, some modern compilers can optimize our code to assembly with better performance, sometimes some compilers can't (the code in question is using Visual Studio's native compiler). Knowing the performance difference between a branch and a conditional move when unpredictable can help us write code with better performance when the scenario gets so complex that the compiler can not optimize them automatically.</div>
+                    <br />
+                    <div class="comment-bottom">
+                        <input type="submit" class="like" value="Like">
+                        <p class="nrLike">24 likes</p>
+                        <input type="submit" class="like" value="Dislike">
+                        <p class="nrLike">7 dislikes</p>
+                    </div>
+
+                    <hr class="afterC" />
+                </div>
+                <div class="comment">
+                    <div class="top-comment">
+                        <p class="user">MicheleNYU</p>
+                        <p class="comment-ts">2.10.2016</p>
+                    </div>
+                    <div class="comment-content">From a processor perspective, your memory is slow. To compensate for the difference in speed, a couple of caches are built into your processor (L1/L2 cache). So imagine that you're doing your nice calculations and figure out that you need a piece of memory. The processor will get its 'load' operation and loads the piece of memory into cache -- and then uses the cache to do the rest of the calculations. Because memory is relatively slow, this 'load' will slow down your program.</div>
+                    <br />
+                    <div class="comment-bottom">
+                        <input type="submit" class="like" value="Like">
+                        <p class="nrLike">13 likes</p>
+                        <input type="submit" class="like" value="Dislike">
+                        <p class="nrLike">19 dislikes</p>
+                    </div>
+
+                    <hr class="afterC" />
+                </div>
+                <div class="comment">
+                    <div class="top-comment">
+                        <p class="user">anonim</p>
+                        <p class="comment-ts">16.09.2016</p>
+                    </div>
+                    <div class="comment-content">
+                        The above behavior is happening because of Branch prediction.<br />
+
+                        To understand branch prediction one must first understand Instruction Pipeline:<br />
+
+                        Any instruction is broken into a sequence of steps so that different steps can be executed concurrently in parallel. This technique is known as instruction pipeline and this is used to increase throughput in modern processors. To understand this better please see this example on Wikipedia.
+                    </div>
+                    <br />
+                    <div class="comment-bottom">
+                        <input type="submit" class="like" value="Like">
+                        <p class="nrLike">2 likes</p>
+                        <input type="submit" class="like" value="Dislike">
+                        <p class="nrLike">17 dislikes</p>
+                    </div>
+
+                    <hr class="afterC" />
+                </div>
+                <div class="comment">
+                    <div class="top-comment">
+                        <p class="user">lelepon</p>
+                        <p class="comment-ts">01.01.2022</p>
+                    </div>
+                    <div class="comment-content">In computer architecture, a branch predictor is a digital circuit that tries to guess which way a branch (e.g. an if-then-else structure) will go before this is known for sure. The purpose of the branch predictor is to improve the flow in the instruction pipeline. Branch predictors play a critical role in achieving high effective performance in many modern pipelined microprocessor architectures such as x86.</div>
+                    <br />
+                    <div class="comment-bottom">
+                        <input type="submit" class="like" value="Like">
+                        <p class="nrLike">2 likes</p>
+                        <input type="submit" class="like" value="Dislike">
+                        <p class="nrLike">0 dislikes</p>
+                    </div>
+
                     <hr class="afterC" />
                 </div>
             </div>
+            <div class="addComment">
+                <form>
+                    <textarea id="addComment" class="input-field" name="comment" placeholder="Add your comment.."></textarea>
+                </form>
+                <span>
+                    <input type="submit"  value="Post">
+
+                </span>
+            </div>
             
+
         </div>
           
     </section>
