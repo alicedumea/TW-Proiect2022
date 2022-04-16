@@ -1,26 +1,20 @@
 ﻿body{
     margin-top:0;
 }
-.content .complete{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-  background-color: rgb(242, 170, 199);
+.content{
+    width:100%;
 }
-.content .complete h3{
-  display: flex;
-  position: absolute;
-  width: 100%;
-  height:100%;
-  justify-content: center;
-  
-  }
+.content .complete{
+    margin-top:70px;
+  background-color: rgb(242, 170, 199);
+  width:100%;
+  padding-left: 3em;
+}
+
 .content .complete .text {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  
+  flex-direction: column;
+
 }
 .content .complete form  {
   display: flex;
@@ -36,29 +30,24 @@
   font-size: 20px;
   font-weight: 500;
   margin-right: 20%;
-  margin-left: 13%;
-  text-align: center;
+  font-weight: bold;
 
 }
 .content .complete textarea {
   display: block;
-  height: 150px;
-  width: 300px;
+  width:100%;
   background-color: rgba(255, 255, 255, 0.07);
   border-radius: 3px;
   padding: 0 10px;
-  margin-top: 60px;
+  margin-top: 10px;
   margin-right: 10%;
   font-size: 14px;
   font-weight: 300;
 }
-#context{
-  margin-right: 3em;
-}
+
 .content .complete .option  {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     
   }
@@ -70,10 +59,26 @@
     background-color: rgba(255, 255, 255, 0.07);
     border-radius: 3px;
     padding: 0 10px;
-    margin-top: 60px;
+    margin-top: 10px;
     font-size: 14px;
     font-weight: 300;
     margin-right: 10%;
-    margin-left: 5%;
  }
 
+.buton {
+
+    color: white;
+    border-radius: 15px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: blueviolet;
+    padding: 8px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+    .buton:hover {
+        cursor: pointer;
+        background-color: forestgreen;
+        border-color: limegreen;
+    }
