@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" />
+    <title>Ask question</title>
+    <link rel="stylesheet" href="..\css\meniu.css" />
+    <link rel="stylesheet" href="..\css\All_questions.css" />
+    <link rel="stylesheet" href="..\css\meniu_ask_question.css" />
+</head>
+<body>
+    <div class="sidebar">
+        <header>Menu</header>
+        <ul>
+            <li><a href="..\html\Anonhome.html">Home</a></li>
+            <li><a href="..\html\pagina2.html">Create Account</a></li>
+            <li><a href="..\html\AnonAll_questions.html">All questions</a></li>
+            <li><a href="..\html\Anonmeniu_ask_question.html">Ask question</a></li>
+            <li><a href="..\html\AnonSearch.html">Search question</a></li>
+            <li><a href="..\documentatie\documentatie.html">Documentation</a></li>>
+        </ul>
+    </div>
+
+    <header class="main-header">
+        <h1 class="page-name">Q&As on Web</h1>
+    </header>
+
+    <section class="content">
+        <header>
+            <div class="title"> Ask question </div>
+        </header>
+        <div class="complete">
+
+
+            <div class="text">
+                <label for="question">Question*</label>
+            </div>
+            <form>
+                <textarea id="question" class="input-field" name="question" placeholder="Add your question here.."></textarea>
+            </form>
+            <div class="text">
+                <label for="context">Context</label>
+            </div>
+            <form>
+                <textarea id="context" class="input-field" name="context" placeholder="Add context if needed.."></textarea>
+            </form>
+            <div class="text">
+                <label for="category">Category*</label>
+            </div>
+
+            <div class="option">
+                <select class="category"
+                        id="category"
+                        placeholder="Choose a category">
+                    <option value="programming">Programming</option>
+                    <option value="matematics">Matematics</option>
+
+                </select>
+            </div>
+            <div class="text">
+                <label for="tags">Tags*</label>
+            </div>
+            <div class="option">
+
+                <select class="tags" id="tags" placeholder="Choose some tags">
+                    <optgroup label="Programming">
+                        <option value="Python">Python</option>
+                        <option value="C++">C++</option>
+                        <option value="Java">Java</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="PHP">PHP</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="C#">C#</option>
+                        <option value="node.js">node.js</option>
+                    </optgroup>
+                    <optgroup label="Matematics">
+                        <option value="Python">Trigonometry</option>
+                        <option value="C++">Geometry</option>
+                        <option value="Java">Aritmetics</option>
+                        <option value="HTML">Numerical Calculus</option>
+                        <option value="CSS">Analisis</option>
+                    </optgroup>
+                </select>
+            </div>
+            <input type="submit" class="buton" value="Post">
+
+        </div>
+    </section>
+</body>
+</html>
