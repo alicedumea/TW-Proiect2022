@@ -58,18 +58,26 @@
 .navbar ul li:hover a {
   padding-left: 100px;
 }
-  .content .account{
-    position: fixed;
-    margin-left:300px;
-    width: 65%;
-    height: 100%;
+   .content .account {
+    margin-left:50%;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    
+    
   }
-  .content.account.text{
+  .content .account span{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20%;
+    margin-left: 15%;
+    background-color:#dac292aa ;
+    padding: 10px;
+  }
+  .content .badge {
+    margin-left:60%;
+    margin-top: 5%;
 
-    font-size: 100px;
   }
+ 
  
